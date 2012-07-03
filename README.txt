@@ -1,34 +1,36 @@
-Flow
-----
+Flow ----
 
-Flow is a simple branch tracer for OSX (and iOS when I can be bothered to write the ARM code)
+Flow is a simple branch tracer for OSX (and iOS when I can be bothered to
+write the ARM code)
 
-Basically you run it like a debugger (because thats what it is); it can attach or spawn a 
-process.  It halts the process and searches forward until it hits a branch instruction; jmp, 
-call, ret, syscall etc.  It then sets a breakpoint on that instruction and runs the program
-until the breakpoint.  It then single steps and starts again.
+Basically you run it like a debugger (because thats what it is); it can attach
+or spawn a process.  It halts the process and searches forward until it hits a
+branch instruction; jmp, call, ret, syscall etc.  It then sets a breakpoint on
+that instruction and runs the program until the breakpoint.  It then single
+steps and starts again.
 
-Basically, the output is trace log file with every block of code; a block being a group of
-instructions starting with the destination of the last branch and ending with the next 
-branch (you also get the branch type).
+Basically, the output is trace log file with every block of code; a block
+being a group of instructions starting with the destination of the last branch
+and ending with the next branch (you also get the branch type).
 
 You can then use FlowCalls.py to dump the call tree out in a terminal window.
 
 
-Building
---------
-Its an XCode project so nothing too difficult; you will need a self signed cert created 
-like this: https://llvm.org/svn/llvm-project/lldb/trunk/docs/code-signing.txt
+Building 
+-------- 
+Its an XCode project so nothing too difficult; you will need a self signed cert 
+created like this: https://llvm.org/svn/llvm-project/lldb/trunk/docs/code-signing.txt
 
-and a built copy of distorm in the distorm directory: http://www.ragestorm.net/distorm/ 
+and a built copy of distorm in the distorm directory: http://www.ragestorm.net/distorm/
 
 
-TODO/Issues
------------
-* ARM Support
-* Springboard Launch
-* Log out thread info
-* Check all threads are handled correctly when attaching to a running multithreaded process
+TODO/Issues 
+----------- 
+* ARM Support 
+* Springboard Launch 
+* Log out thread info 
+* Check all threads are handled correctly when attaching to a running 
+  multithreaded process
 
 
 License (MIT style)
