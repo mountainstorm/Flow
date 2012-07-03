@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E0314BE157F624F002C249B /* TaskArch_x86_64.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E0314BD157F624F002C249B /* TaskArch_x86_64.c */; };
+		1E0314C2157F6650002C249B /* Flow.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E0314C1157F6650002C249B /* Flow.c */; };
+		1E0DA38D15A259F00016C99A /* mach_excServer.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E0DA38C15A259F00016C99A /* mach_excServer.c */; };
+		1E23127915A0E3AD00330180 /* TraceLog.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E23127815A0E3AD00330180 /* TraceLog.c */; };
+		1E57102115A243A3001461FA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E57102015A243A3001461FA /* Security.framework */; };
+		1EA7C9D4157B7F93001E76FF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1EA7C9D3157B7F93001E76FF /* main.c */; };
+		1EA7CA0C157E1CAA001E76FF /* ExceptionPort.c in Sources */ = {isa = PBXBuildFile; fileRef = 1EA7CA0B157E1CAA001E76FF /* ExceptionPort.c */; };
+		1EA7CA15157E4A13001E76FF /* Exception.c in Sources */ = {isa = PBXBuildFile; fileRef = 1EA7CA14157E4A12001E76FF /* Exception.c */; };
+		1EA7CA18157E63EB001E76FF /* Launch.c in Sources */ = {isa = PBXBuildFile; fileRef = 1EA7CA17157E63EB001E76FF /* Launch.c */; };
+		1EA7CA1B157F5860001E76FF /* Task.c in Sources */ = {isa = PBXBuildFile; fileRef = 1EA7CA1A157F585F001E76FF /* Task.c */; };
+		1ED9305C157F60FB00164553 /* TaskArch_x86.c in Sources */ = {isa = PBXBuildFile; fileRef = 1ED9305B157F60FB00164553 /* TaskArch_x86.c */; };
+		1EFB1DD615977002001228D5 /* libdistorm3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFB1DD515977002001228D5 /* libdistorm3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1EA7C9CD157B7F93001E76FF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1E0314BD157F624F002C249B /* TaskArch_x86_64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TaskArch_x86_64.c; sourceTree = "<group>"; };
+		1E0314C0157F643A002C249B /* Flow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flow.h; sourceTree = "<group>"; };
+		1E0314C1157F6650002C249B /* Flow.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Flow.c; sourceTree = "<group>"; };
+		1E0DA38C15A259F00016C99A /* mach_excServer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mach_excServer.c; path = mach/mach_excServer.c; sourceTree = "<group>"; };
+		1E23127615A0E1A000330180 /* TraceLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TraceLog.h; sourceTree = "<group>"; };
+		1E23127815A0E3AD00330180 /* TraceLog.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TraceLog.c; sourceTree = "<group>"; };
+		1E57101F15A23D5F001461FA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E57102015A243A3001461FA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = ../../../../../../../../System/Library/Frameworks/Security.framework; sourceTree = "<group>"; };
+		1EA7C9CF157B7F93001E76FF /* Flow */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Flow; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA7C9D3157B7F93001E76FF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		1EA7CA0B157E1CAA001E76FF /* ExceptionPort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ExceptionPort.c; sourceTree = "<group>"; };
+		1EA7CA0D157E1D65001E76FF /* ExceptionPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExceptionPort.h; sourceTree = "<group>"; };
+		1EA7CA0E157E2BA6001E76FF /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		1EA7CA13157E49A8001E76FF /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		1EA7CA14157E4A12001E76FF /* Exception.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Exception.c; sourceTree = "<group>"; };
+		1EA7CA16157E63D7001E76FF /* Launch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Launch.h; sourceTree = "<group>"; };
+		1EA7CA17157E63EB001E76FF /* Launch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Launch.c; sourceTree = "<group>"; };
+		1EA7CA19157F5827001E76FF /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		1EA7CA1A157F585F001E76FF /* Task.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Task.c; sourceTree = "<group>"; };
+		1ED93058157F5F8C00164553 /* TaskArch_x86.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskArch_x86.h; sourceTree = "<group>"; };
+		1ED9305A157F5FD300164553 /* TaskArch_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskArch_x86_64.h; sourceTree = "<group>"; };
+		1ED9305B157F60FB00164553 /* TaskArch_x86.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TaskArch_x86.c; sourceTree = "<group>"; };
+		1EFB1DD515977002001228D5 /* libdistorm3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libdistorm3.dylib; path = distorm/make/mac/libdistorm3.dylib; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EA7C9CC157B7F93001E76FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFB1DD615977002001228D5 /* libdistorm3.dylib in Frameworks */,
+				1E57102115A243A3001461FA /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E0DA38815A258E10016C99A /* mach */ = {
+			isa = PBXGroup;
+			children = (
+				1E0DA38C15A259F00016C99A /* mach_excServer.c */,
+			);
+			name = mach;
+			sourceTree = "<group>";
+		};
+		1EA7C9C4157B7F93001E76FF = {
+			isa = PBXGroup;
+			children = (
+				1EA7C9D2157B7F93001E76FF /* Flow */,
+				1EA7C9D0157B7F93001E76FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EA7C9D0157B7F93001E76FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EA7C9CF157B7F93001E76FF /* Flow */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EA7C9D2157B7F93001E76FF /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				1E0DA38815A258E10016C99A /* mach */,
+				1E57102015A243A3001461FA /* Security.framework */,
+				1EFB1DD515977002001228D5 /* libdistorm3.dylib */,
+				1EA7C9D3157B7F93001E76FF /* main.c */,
+				1E0314C0157F643A002C249B /* Flow.h */,
+				1E0314C1157F6650002C249B /* Flow.c */,
+				1E23127615A0E1A000330180 /* TraceLog.h */,
+				1E23127815A0E3AD00330180 /* TraceLog.c */,
+				1EA7CA0E157E2BA6001E76FF /* Log.h */,
+				1EA7CA16157E63D7001E76FF /* Launch.h */,
+				1EA7CA17157E63EB001E76FF /* Launch.c */,
+				1EA7CA13157E49A8001E76FF /* Exception.h */,
+				1EA7CA14157E4A12001E76FF /* Exception.c */,
+				1EA7CA0D157E1D65001E76FF /* ExceptionPort.h */,
+				1EA7CA0B157E1CAA001E76FF /* ExceptionPort.c */,
+				1EA7CA19157F5827001E76FF /* Task.h */,
+				1EA7CA1A157F585F001E76FF /* Task.c */,
+				1ED93058157F5F8C00164553 /* TaskArch_x86.h */,
+				1ED9305B157F60FB00164553 /* TaskArch_x86.c */,
+				1ED9305A157F5FD300164553 /* TaskArch_x86_64.h */,
+				1E0314BD157F624F002C249B /* TaskArch_x86_64.c */,
+				1E57101F15A23D5F001461FA /* Info.plist */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EA7C9CE157B7F93001E76FF /* Flow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EA7C9D9157B7F93001E76FF /* Build configuration list for PBXNativeTarget "Flow" */;
+			buildPhases = (
+				1EA7C9CB157B7F93001E76FF /* Sources */,
+				1EA7C9CC157B7F93001E76FF /* Frameworks */,
+				1EA7C9CD157B7F93001E76FF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flow;
+			productName = Flow;
+			productReference = 1EA7C9CF157B7F93001E76FF /* Flow */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EA7C9C6157B7F93001E76FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Mountainstorm;
+			};
+			buildConfigurationList = 1EA7C9C9157B7F93001E76FF /* Build configuration list for PBXProject "Flow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1EA7C9C4157B7F93001E76FF;
+			productRefGroup = 1EA7C9D0157B7F93001E76FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EA7C9CE157B7F93001E76FF /* Flow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EA7C9CB157B7F93001E76FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA7C9D4157B7F93001E76FF /* main.c in Sources */,
+				1EA7CA0C157E1CAA001E76FF /* ExceptionPort.c in Sources */,
+				1EA7CA15157E4A13001E76FF /* Exception.c in Sources */,
+				1EA7CA18157E63EB001E76FF /* Launch.c in Sources */,
+				1EA7CA1B157F5860001E76FF /* Task.c in Sources */,
+				1ED9305C157F60FB00164553 /* TaskArch_x86.c in Sources */,
+				1E0314BE157F624F002C249B /* TaskArch_x86_64.c in Sources */,
+				1E0314C2157F6650002C249B /* Flow.c in Sources */,
+				1E23127915A0E3AD00330180 /* TraceLog.c in Sources */,
+				1E0DA38D15A259F00016C99A /* mach_excServer.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1EA7C9D7157B7F93001E76FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = distorm/include;
+				INFOPLIST_FILE = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1EA7C9D8157B7F93001E76FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = distorm/include;
+				INFOPLIST_FILE = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		1EA7C9DA157B7F93001E76FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = Cooper;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/distorm/make/mac\"",
+				);
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"$(PROJECT_DIR)/Flow/Info.plist",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		1EA7C9DB157B7F93001E76FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = Cooper;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/distorm/make/mac\"",
+				);
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"$(PROJECT_DIR)/Flow/Info.plist",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EA7C9C9157B7F93001E76FF /* Build configuration list for PBXProject "Flow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA7C9D7157B7F93001E76FF /* Debug */,
+				1EA7C9D8157B7F93001E76FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EA7C9D9157B7F93001E76FF /* Build configuration list for PBXNativeTarget "Flow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EA7C9DA157B7F93001E76FF /* Debug */,
+				1EA7C9DB157B7F93001E76FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EA7C9C6157B7F93001E76FF /* Project object */;
+}
