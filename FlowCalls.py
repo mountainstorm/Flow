@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# coding: latin-1
+
 # Copyright (c) 2012 Mountainstorm
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -18,8 +21,6 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-#!/usr/bin/python
-# coding: latin-1
 
 from macholib import MachO 
 import subprocess
